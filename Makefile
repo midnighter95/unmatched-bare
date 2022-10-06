@@ -1,4 +1,4 @@
-CROSSCOMPILE?=riscv64-unknown-elf-
+CROSSCOMPILE?=/home/yyq/Projects/riscv64-unknown-elf-toolchain/bin/riscv64-unknown-elf-
 
 PCIE_SRCS := driver/pcie-init.c driver/pcie-cfg.c driver/pcie-enum.c
 
